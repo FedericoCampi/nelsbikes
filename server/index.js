@@ -8,7 +8,7 @@ const app = express();
 
 // middleware
 
-app.use(cors({origin: 'http://localhost:3000'}));
+app.use(cors({origin: 'https://nelsbikes.netlify.app'}));
 app.use(express.json())
 
 app.post('/api/checkout', async(req, res) =>{
