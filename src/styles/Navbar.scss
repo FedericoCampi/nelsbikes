@@ -1,0 +1,27 @@
+.navContainer{
+    background: #0c3c34;
+    background: linear-gradient(90deg,#0c3c34,#244a47 50%,#0c3c34);
+    position: fixed;
+}
+.navLogo img{
+    width: 120px;
+    height: 5vh;
+}
+.navGrow{
+    flex-grow: 1;
+}
+.guest{
+    padding-right: 10px;
+}
+.signIn{
+    color: white !important;
+}
+.signIn:hover{
+    background-color: #149c9c !important;
+}
+.buttonCart{
+    color: white !important;
+}
+.buttonCart:hover{
+    color: #149c9c !important;
+}

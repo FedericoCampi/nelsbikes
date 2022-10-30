@@ -1,0 +1,73 @@
+.products{
+    background: rgb(12,60,52);
+    background: linear-gradient(145deg, rgba(12,60,52,1) 0%, rgba(119,208,180,1) 100%);
+}
+.imgContainer{
+    position: relative;
+}
+.imgDiv{
+    position: relative;
+}
+.motorImg{
+    height: 500px;
+    object-fit: cover;
+    width: 100%;
+}
+.introContainer{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.textDiv{
+    width: 50%;
+    background-color: transparent;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textDiv h4{
+    -webkit-text-stroke: 1.2px #0c3c34;
+    color: #fff;
+    font-size: 3rem;
+}
+.textDiv p{
+    color: #cdcd25;
+    text-align: start;
+    font-size: 1.3rem;
+}
+.botonDiv{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    height: 80%;
+    align-items: flex-end;
+    padding-bottom: 5%;
+}
+.boton Button{
+    background-color: #149c9c;
+    border-radius: 15px;
+    color: #1c1c2c;
+    padding-right: 10px;
+    font-weight: bolder;
+}
+.boton Button:hover{
+    background-color: #cacaca;
+}
+.containerGrid{
+    padding: 3%;
+    box-sizing: border-box;
+}
+@media (max-width: 600px){
+    .introContainer{
+        display: grid;
+    }
+    .textDiv{
+        width: 100%;
+    }
+    .botonDiv{
+        width: 100%;
+    }
+}

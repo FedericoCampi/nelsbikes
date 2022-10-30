@@ -1,0 +1,20 @@
+.cardContainer{
+    max-width: 300px;
+    border-radius: 15px !important;
+    background-color: #cacaca !important;
+}
+.image{
+    height: 250px;
+}
+.title{
+    text-align: start;
+    padding: 3%;
+}
+.subYprice{
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+}
+.productInfo{
+    text-align: start;
+}

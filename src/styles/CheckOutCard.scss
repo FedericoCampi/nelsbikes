@@ -1,0 +1,18 @@
+.CardContainer{
+    max-width: 300px;
+    border-radius: 15px !important;
+    background-color: #cacaca !important;
+}
+.cardProduct{
+    text-align: start;
+    padding-left: 3%;
+}
+.DeleteDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.ratingDiv{
+    display: flex;
+}

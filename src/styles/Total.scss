@@ -1,0 +1,24 @@
+.totalContainer{
+    border: 2px solid #cacaca;
+    border-radius: 15px;
+}
+.totalContainer h5{
+    color: #1c1c2c;
+    font-size: 2rem;
+}
+.totalContainer h4{
+    color: #1c1c2c;
+    font-size: 1.5rem;
+}
+.botonTotal{
+    text-decoration: none;
+}
+.botonTotal Button{
+    background-color: #149c9c;
+    border-radius: 15px;
+    color: #1c1c2c;
+    font-weight: bolder;
+}
+.botonTotal Button:hover{
+    background-color: #cacaca;
+}
