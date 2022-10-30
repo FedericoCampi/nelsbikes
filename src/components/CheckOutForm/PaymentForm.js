@@ -30,7 +30,7 @@ const CheckOutForm = ({backStep, nextStep}) => {
         if (!error) {
             const {id} = paymentMethod;
             try{
-                const { data } = await Axios.post('http://localhost:3001/api/checkout', {
+                const { data } = await Axios.post('https://nelsbikes.netlify.app/CheckOut', {
                     id,
                     amount: getBasketTotal(basket) * 100
                 });
