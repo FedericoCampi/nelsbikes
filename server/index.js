@@ -11,7 +11,7 @@ const app = express();
 app.use(cors({origin: 'https://nelsbikes.netlify.app'}));
 app.use(express.json())
 
-app.post('/api/checkout', async(req, res) =>{
+app.post('/api/CheckOut', async(req, res) =>{
     // eslint-disable-next-line no-unused-vars
     const { id, amount } = req.body;
 
