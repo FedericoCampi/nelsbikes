@@ -8,11 +8,10 @@ const app = express();
 
 // middleware
 
-app.use(cors({origin: 'https://nelsbikes.netlify.app'}));
+app.use(cors({origin: 'http://localhost:3000'}));
 app.use(express.json())
 
-// app.post('/api/CheckOut', async(req, res) =>{
-app.post('/CheckOut', async(req, res) =>{
+app.post('/api/CheckOut', async(req, res) =>{
     // eslint-disable-next-line no-unused-vars
     const { id, amount } = req.body;
 
