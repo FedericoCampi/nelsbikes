@@ -29,7 +29,7 @@ const AddressForm = ({nextStep}) => {
                         })
                         nextStep();
                     })}>
-                        <Grid container spacing={2}>
+                        <Grid container spacing={2} className="gridInputs">
                             <AddressInput required name="firstName" label="First Name"/>
                             <AddressInput required name="lastName" label="Last Name"/>
                             <AddressInput required name="address1" label="Address"/>
@@ -38,7 +38,7 @@ const AddressForm = ({nextStep}) => {
                             <AddressInput required name="postCode" label="Post code"/>
                         </Grid>
                         <div className='botonCheckOut'>
-                            <Button component={Link} to='/CheckOutPage' variant='contained'>Back to the CheckOut page</Button>
+                            <Button  className='botonCheckOutPag' component={Link} to='/CheckOutPage' variant='contained'>Back to the CheckOut page</Button>
                             <Button type='submit' variant='contained'>Next</Button>
                         </div>
                     </form>

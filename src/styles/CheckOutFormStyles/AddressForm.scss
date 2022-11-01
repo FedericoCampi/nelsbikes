@@ -1,12 +1,29 @@
-
 .containerForm h5{
     height: 50px;
+    color: white;
+}
+.gridInputs AddressInput{
+    background-color: white !important;
 }
 .formDiv{
-    padding: 0 0 0 15%;
+    padding: 0 13% 0 15%;
 }
 .botonCheckOut{
     display: flex;
     justify-content: space-around;
     padding: 5% 15% 5% 0;
+}
+.botonCheckOutPag{
+    background-color: #149c9c !important;
+    color: black !important;
+}
+.botonCheckOutPag:hover{
+    background-color: #cacaca !important;
+}
+.botonCheckOut Button{
+    background-color: #149c9c;
+    color: black;
+}
+.botonCheckOut Button:hover{
+    background-color: #cacaca;
 }

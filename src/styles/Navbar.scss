@@ -25,3 +25,10 @@
 .buttonCart:hover{
     color: #149c9c !important;
 }
+
+@media(max-width: 350px){
+    .navLogo img{
+        width: 100px;
+        height: 5vh;
+    }
+}

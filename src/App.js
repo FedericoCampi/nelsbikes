@@ -10,6 +10,7 @@ import { auth } from './firebase';
 import { actionTypes } from './reducer';
 import { useStateValue } from './StateProvider';
 import Checkout from './components/CheckOutForm/CheckOut';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -31,7 +32,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <Navbar></Navbar>
+        <Navbar/>
         <Routes>
           <Route path='/'element={<Products/>}></Route>
           <Route path='/CheckOutPage'element={<CheckOutPage/>}></Route>
@@ -39,6 +40,7 @@ function App() {
           <Route path="/SignUp" element={<SignUp/>}></Route>
           <Route path="/CheckOut" element={<Checkout/>}></Route>
         </Routes>
+        <Footer/>
       </div>
     </BrowserRouter>
   );

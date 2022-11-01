@@ -16,7 +16,7 @@ const Review = () => {
             <Typography variant='h6'>
                 Order summary
             </Typography>
-            <List>
+            <List className='listReview'>
                 {
                     basket?.map(product => (
                         <ListItem key={product.name}>

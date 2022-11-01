@@ -5,7 +5,7 @@
 .imgContainer{
     position: relative;
 }
-.imgDiv{
+.imgDivProducts{
     position: relative;
 }
 .motorImg{
@@ -32,11 +32,7 @@
     -webkit-text-stroke: 1.2px #0c3c34;
     color: #fff;
     font-size: 3rem;
-}
-.textDiv p{
-    color: #cdcd25;
-    text-align: start;
-    font-size: 1.3rem;
+    word-break:break-all;
 }
 .botonDiv{
     width: 50%;
@@ -57,17 +53,34 @@
     background-color: #cacaca;
 }
 .containerGrid{
-    padding: 3%;
+    padding: 5% 5%;
     box-sizing: border-box;
 }
 @media (max-width: 600px){
+    .containerGrid{
+        padding: 5% 5% 5% 15%;
+        box-sizing: border-box;
+    }
     .introContainer{
         display: grid;
     }
     .textDiv{
         width: 100%;
+        box-sizing: border-box;
     }
     .botonDiv{
         width: 100%;
     }
 }
+@media(max-width: 400px){
+    .containerGrid{
+        padding: 5% 5% 5% 10%;
+        box-sizing: border-box;
+    }
+}
+@media(max-width: 350px){
+    .textDiv h4{
+        font-size: 2.5rem;
+    }
+}
+

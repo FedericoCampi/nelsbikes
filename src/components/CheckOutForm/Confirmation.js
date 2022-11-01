@@ -17,8 +17,8 @@ const Confirmation = ({message}) => {
                 : ""
                 }
             </Typography>
-            <div className='botonConfirmation'>
-                <Button component={Link} to='/'variant='contained'>
+            <div className='divBotonConfirmation'>
+                <Button className='botonConfirmation' component={Link} to='/'variant='contained'>
                     Back to the Home page
                 </Button>
             </div>        

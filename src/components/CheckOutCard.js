@@ -3,7 +3,6 @@ import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
 import CardActions from '@mui/material/CardActions';
 import Typography from '@mui/material/Typography';
-import accounting from 'accounting';
 import DeleteIcon from '@mui/icons-material/Delete'
 import { actionTypes } from '../reducer';
 import { useStateValue } from '../StateProvider';
@@ -33,13 +32,6 @@ export default function CheckOutCard({product : {id, name, productType, price, r
             <Typography variant="h6">
                 {name}
             </Typography>
-            <Typography
-                variant="h6"
-                color="textSecondary"
-                >
-                    {accounting.formatMoney(price)}
-            </Typography>
-            
         </div>
         <CardActions disableSpacing>
             <div className='DeleteDiv'>

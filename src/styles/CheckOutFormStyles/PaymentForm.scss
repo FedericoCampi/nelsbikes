@@ -3,6 +3,20 @@
     justify-content: space-between;
     padding:5% 10%;
 }
+.backPay Button:nth-child(1){
+    color: black;
+    border: 1px solid #149c9c;
+}
+.backPay Button:nth-child(1):hover{
+    border: 1px solid #cacaca;
+}
+.backPay Button:nth-child(2){
+    background-color: #149c9c;
+    color: black;
+}
+.backPay Button:nth-child(2):hover{
+    background-color: #cacaca;
+}
 .formDivCheckout{
     padding: 0 5%;
 }

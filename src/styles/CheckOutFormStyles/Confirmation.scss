@@ -1,7 +1,13 @@
 .confirmationContainer{
-    width: 600px;
     padding: 5% 0 5% 0;
 }
+.divBotonConfirmation{
+    padding-top: 20px;
+}
 .botonConfirmation{
-    padding-top: 10px;
+    background-color: #149c9c !important;
+    color: black !important;
+}
+.botonConfirmation:hover{
+    background-color: #cacaca !important;
 }

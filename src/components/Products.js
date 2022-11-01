@@ -12,16 +12,12 @@ export default function Products() {
 return (
     <Box className='products'>
         <div className='imgContainer' id="about">
-            <div className='imgDiv'>
+            <div className='imgDivProducts'>
             <img src={tourF} alt='' className='motorImg'>
             </img>
                 <div className='introContainer'>
                     <div className='textDiv'>
                         <h4>Gear worn by the 2022 tour de france winning team</h4>
-                        <p>
-                        </p>
-                        <p>
-                        </p>
                     </div>
                     <div className='botonDiv'>
                         <div className='boton'>
