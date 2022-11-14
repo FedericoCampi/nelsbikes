@@ -7,3 +7,38 @@
     font-size: 3rem;
     color: #149c9c;
 }
+.cardEmptyContainer{
+    margin: 16px 0 3% 0;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    width: 95%;
+}
+.cardEmptyImg{
+    max-width: 35%;
+    max-height: 20%;
+}
+.cardEmptyImg Img{
+    width: 100%;
+    border-radius: 15px;
+}
+.cardEmptyDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.cardEmptyDiv h2{
+    color: #149c9c;
+    font-size: 2rem;
+}
+.cardEmptyDiv Button{
+    width: 40%;
+    color: #149c9c;
+    border-color: #149c9c;
+}
+.cardEmptyDiv Button:hover{
+    background-color: #646464;
+}
